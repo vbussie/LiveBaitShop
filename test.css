@@ -1,0 +1,55 @@
+
+
+/*Navigation*/
+.main-nav ul{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  /*border:1px solid #ccc;*/
+  border-width:3px 0;
+  list-style:none;
+  text-align:center;
+  text-decoration: none;
+  margin: 0;
+  display: grid;
+  grid-gap: 20px;
+  padding: 0;
+  grid-template-columns: (4,1fr);
+}
+
+.main-nav ul{
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+  float: none;
+}
+
+.main-nav a{
+  /*background: var(--primary);*/
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  /*color: var(--dark);*/
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  /*box-shadow: var(--shadow);8?
+}
+
+.main.nav a:hover{
+  /*background: var(--dark);
+  color: var(--light);*/
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+  max-width: 85%;
+  height: auto;
+  /*background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+  border-radius: 50%*/
+}
